@@ -1,0 +1,9 @@
+name: "Git Authentication"
+description: "Allow GitHub Actions to use private git commands with GITHUB_TOKEN"
+branding:
+  icon: 'unlock'
+  color: 'blue'
+runs:
+  using: 'node12'
+  main: 'index.js'
+  post: 'end.js'
